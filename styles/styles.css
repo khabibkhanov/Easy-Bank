@@ -474,15 +474,12 @@ footer .footer-inner .footer-left .footer-log .social .social-icon {
 }
 
 .social-icon.instagram:hover{
+  fill: url(#a);
   -webkit-transform:scale(1.5);
      -moz-transform:scale(1.5);
       -ms-transform:scale(1.5);
        -o-transform:scale(1.5);
           transform:scale(1.5);
-  background: -webkit-radial-gradient(30% 107%, circle, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
-  background: -moz-radial-gradient(30% 107%, circle, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
-  background: -o-radial-gradient(30% 107%, circle, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
-  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
 }
 
 footer .footer-inner .footer-left .footer-link.left {
