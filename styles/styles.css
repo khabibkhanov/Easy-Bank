@@ -438,8 +438,6 @@ footer .footer-inner .footer-left .footer-log .social .social-icon {
       -ms-transform: scale(1.5);
        -o-transform: scale(1.5);
           transform: scale(1.5);
-  -webkit-filter: drop-shadow(1px 1px 0px #FF0000);
-          filter: drop-shadow(1px 1px 0px #FF0000);
 }
 
 .social-icon.facebook:hover{
@@ -449,8 +447,6 @@ footer .footer-inner .footer-left .footer-log .social .social-icon {
       -ms-transform: scale(1.5);
        -o-transform: scale(1.5);
           transform: scale(1.5);
-  -webkit-filter: drop-shadow(1px 1px 0px #4267B2);
-          filter: drop-shadow(1px 1px 0px #4267B2);
 }
 
 .social-icon.twitter:hover{
@@ -460,8 +456,6 @@ footer .footer-inner .footer-left .footer-log .social .social-icon {
       -ms-transform: scale(1.5);
        -o-transform: scale(1.5);
           transform: scale(1.5);
-  -webkit-filter: drop-shadow(1px 1px 0px #1DA1F2);
-          filter: drop-shadow(1px 1px 0px #1DA1F2);
 }
 
 .social-icon.pinterest:hover{
@@ -471,8 +465,12 @@ footer .footer-inner .footer-left .footer-log .social .social-icon {
       -ms-transform:scale(1.5);
        -o-transform:scale(1.5);
           transform:scale(1.5);
-  -webkit-filter: drop-shadow(1px 1px 0px #BD081C);
-          filter: drop-shadow(1px 1px 0px #BD081C);
+}
+
+.social-icon.instagram{
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+       border-radius: 6px;
 }
 
 .social-icon.instagram:hover{
@@ -481,11 +479,6 @@ footer .footer-inner .footer-left .footer-log .social .social-icon {
       -ms-transform:scale(1.5);
        -o-transform:scale(1.5);
           transform:scale(1.5);
-  -webkit-filter: drop-shadow(1px 1px 0px #BD081C);
-          filter: drop-shadow(1px 1px 0px #BD081C);
-  -webkit-border-radius: 7px;
-     -moz-border-radius: 7px;
-          border-radius: 7px;
   background: -webkit-radial-gradient(30% 107%, circle, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
   background: -moz-radial-gradient(30% 107%, circle, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
   background: -o-radial-gradient(30% 107%, circle, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
@@ -583,7 +576,7 @@ footer .footer-right p {
     -o-transition: all ease 0.5s;
     -moz-transition: all ease 0.5s;
     transition: all ease 0.5s;
-    visibility: hidden;
+    opacity: 0;
     -webkit-transition-delay: 0.5s;
        -moz-transition-delay: 0.5s;
          -o-transition-delay: 0.5s;
@@ -600,7 +593,7 @@ footer .footer-right p {
 
   #dropdown.opened {
     height: 240px;
-    visibility: visible;
+    opacity: 1;
   }
 
   header .header-inner .header-link-wrapper .header-link  {
